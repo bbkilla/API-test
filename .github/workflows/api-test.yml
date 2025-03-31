@@ -1,6 +1,7 @@
 name: API Test Runner
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "*/30 * * * *"
 
