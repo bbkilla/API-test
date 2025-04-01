@@ -23,8 +23,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-        git config --global user.email "bbkilla@gmail.com"
-        git config --global user.name "GitHub Actions"
-        git add status_history.json
-        git commit -m "upsate status_history.json"
-        git push
+          git config --global user.email "bbkilla@gmail.com"
+          git config --global user.name "GitHub Actions"
+          git add status_history.json
+          git commit -m "upsate status_history.json"
+          git push
