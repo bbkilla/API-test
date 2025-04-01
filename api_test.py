@@ -1,5 +1,6 @@
 import os
 import json
+DATA_FILE = "status_history.json"
 def load_history():
     if not os.path.exists(DATA_FILE):  # אם הקובץ לא קיים, יוצרים אותו עם תוכן ריק
         with open(DATA_FILE, "w") as f:
