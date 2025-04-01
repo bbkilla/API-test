@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  test_api:
+  track_shoplifting:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -15,5 +15,8 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Run API test
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run tracking script
         run: python api_test.py
