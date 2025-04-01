@@ -1,8 +1,8 @@
-import os
 import json
+import requests
+
+API = "https://api.torn.com/torn/?key=PHjfnNpLPwYwlM7l&comment=TornAPI&selections=shoplifting"
 DATA_FILE = "status_history.json"
-def load_history():
-    if not os.path.exists(DATA_FILE):  # אם הקובץ לא קיים, יוצרים אותו עם תוכן ריק
-        with open(DATA_FILE, "w") as f:
-            json.dump({}, f, indent=4)  # כותבים מילון ריק כדי למנוע שגיאות
-        return {}
+response = requests.get(API)
+with open(DATA_FILE, "w") as f:
+    json.dump(data, f, indent=4)
