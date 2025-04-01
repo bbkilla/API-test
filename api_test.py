@@ -7,3 +7,4 @@ response = requests.get(API)
 data = response.json()
 with open(DATA_FILE, "w") as f:
     json.dump(data, f, indent=4)
+print(data)
