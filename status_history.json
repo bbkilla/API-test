@@ -35,7 +35,7 @@
         "cyber_force": [
             {
                 "title": "Two cameras",
-                "disabled": false
+                "disabled": true
             },
             {
                 "title": "One guard",
@@ -73,4 +73,4 @@
             }
         ]
     }
-}
+}"2025-04-02T07:48:19.384715"
