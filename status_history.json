@@ -4,8 +4,8 @@
             {
                 "title": "One camera",
                 "disabled": false,
-                "CHANGE?": "YES!!",
-                "this_run_time": "00:00:00",
+                "CHANGE?": "No!!",
+                "this_run_time": "00:03:51",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             }
@@ -15,7 +15,7 @@
                 "title": "Two cameras",
                 "disabled": true,
                 "CHANGE?": "No!!",
-                "this_run_time": "00:24:39",
+                "this_run_time": "00:28:30",
                 "run_type": "GO GO GO",
                 "old_run": "66:58:41"
             }
@@ -24,16 +24,16 @@
             {
                 "title": "One camera",
                 "disabled": false,
-                "CHANGE?": "YES!!",
-                "this_run_time": "00:00:00",
+                "CHANGE?": "No!!",
+                "this_run_time": "00:03:51",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             },
             {
                 "title": "Checkpoint",
                 "disabled": false,
-                "CHANGE?": "YES!!",
-                "this_run_time": "00:00:00",
+                "CHANGE?": "No!!",
+                "this_run_time": "00:03:51",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             }
@@ -42,16 +42,16 @@
             {
                 "title": "Two cameras",
                 "disabled": false,
-                "CHANGE?": "YES!!",
-                "this_run_time": "00:00:00",
+                "CHANGE?": "No!!",
+                "this_run_time": "00:03:51",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             },
             {
                 "title": "Checkpoint",
                 "disabled": false,
-                "CHANGE?": "YES!!",
-                "this_run_time": "00:00:00",
+                "CHANGE?": "No!!",
+                "this_run_time": "00:03:51",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             }
@@ -60,16 +60,16 @@
             {
                 "title": "Two cameras",
                 "disabled": false,
-                "CHANGE?": "YES!!",
-                "this_run_time": "00:00:00",
+                "CHANGE?": "No!!",
+                "this_run_time": "00:03:51",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             },
             {
                 "title": "One guard",
                 "disabled": false,
-                "CHANGE?": "YES!!",
-                "this_run_time": "00:00:00",
+                "CHANGE?": "No!!",
+                "this_run_time": "00:03:51",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             }
@@ -79,15 +79,15 @@
                 "title": "Three cameras",
                 "disabled": true,
                 "CHANGE?": "No!!",
-                "this_run_time": "00:24:39",
+                "this_run_time": "00:28:30",
                 "run_type": "GO GO GO",
                 "old_run": "66:58:41"
             },
             {
                 "title": "Checkpoint",
                 "disabled": false,
-                "CHANGE?": "YES!!",
-                "this_run_time": "00:00:00",
+                "CHANGE?": "No!!",
+                "this_run_time": "00:03:51",
                 "old_run": "00:00:11",
                 "run_type": "wait for it..."
             }
@@ -96,16 +96,16 @@
             {
                 "title": "Four cameras",
                 "disabled": false,
-                "CHANGE?": "YES!!",
-                "this_run_time": "00:00:00",
+                "CHANGE?": "No!!",
+                "this_run_time": "00:03:51",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             },
             {
                 "title": "Two guards",
                 "disabled": false,
-                "CHANGE?": "YES!!",
-                "this_run_time": "00:00:00",
+                "CHANGE?": "No!!",
+                "this_run_time": "00:03:51",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             }
@@ -114,20 +114,20 @@
             {
                 "title": "Three cameras",
                 "disabled": false,
-                "CHANGE?": "YES!!",
-                "this_run_time": "00:00:00",
+                "CHANGE?": "No!!",
+                "this_run_time": "00:03:51",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             },
             {
                 "title": "One guard",
                 "disabled": false,
-                "CHANGE?": "YES!!",
-                "this_run_time": "00:00:00",
+                "CHANGE?": "No!!",
+                "this_run_time": "00:03:51",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             }
         ]
     },
-    "old_time": "2025-04-06T07:17:36.000446+00:00"
+    "old_time": "2025-04-06T07:21:27.135705+00:00"
 }
