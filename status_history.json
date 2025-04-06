@@ -5,9 +5,11 @@
                 "title": "One camera",
                 "disabled": true,
                 "CHANGE?": "No!!",
-                "this_run_time": "00:07:07",
+                "this_run_time": "00:14:34",
                 "run_type": "GO GO GO",
-                "old_run": "01:28:30"
+                "old_run": "01:28:30",
+                "min_cycle": "timedelta(hours=3)",
+                "max_cycle": "timedelta(hours=3)"
             }
         ],
         "Bits_n_bobs": [
@@ -15,9 +17,11 @@
                 "title": "Two cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:31:42",
+                "this_run_time": "01:39:09",
                 "run_type": "wait for it...",
-                "old_run": "00:28:30"
+                "old_run": "00:28:30",
+                "min_cycle": "timedelta(hours=3)",
+                "max_cycle": "timedelta(hours=3)"
             }
         ],
         "tc_clothing": [
@@ -25,17 +29,21 @@
                 "title": "One camera",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:43:26",
+                "this_run_time": "01:50:53",
                 "run_type": "wait for it...",
-                "old_run": "00:00:11"
+                "old_run": "00:00:11",
+                "min_cycle": "timedelta(hours=3)",
+                "max_cycle": "timedelta(hours=3)"
             },
             {
                 "title": "Checkpoint",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:43:26",
+                "this_run_time": "01:50:53",
                 "run_type": "wait for it...",
-                "old_run": "00:00:11"
+                "old_run": "00:00:11",
+                "min_cycle": "timedelta(hours=3)",
+                "max_cycle": "timedelta(hours=3)"
             }
         ],
         "super_store": [
@@ -43,17 +51,21 @@
                 "title": "Two cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:43:26",
+                "this_run_time": "01:50:53",
                 "run_type": "wait for it...",
-                "old_run": "00:00:11"
+                "old_run": "00:00:11",
+                "min_cycle": "timedelta(hours=3)",
+                "max_cycle": "timedelta(hours=3)"
             },
             {
                 "title": "Checkpoint",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:43:26",
+                "this_run_time": "01:50:53",
                 "run_type": "wait for it...",
-                "old_run": "00:00:11"
+                "old_run": "00:00:11",
+                "min_cycle": "timedelta(hours=3)",
+                "max_cycle": "timedelta(hours=3)"
             }
         ],
         "cyber_force": [
@@ -61,17 +73,21 @@
                 "title": "Two cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:43:26",
+                "this_run_time": "01:50:53",
                 "run_type": "wait for it...",
-                "old_run": "00:00:11"
+                "old_run": "00:00:11",
+                "min_cycle": "timedelta(hours=3)",
+                "max_cycle": "timedelta(hours=3)"
             },
             {
                 "title": "One guard",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:43:26",
+                "this_run_time": "01:50:53",
                 "run_type": "wait for it...",
-                "old_run": "00:00:11"
+                "old_run": "00:00:11",
+                "min_cycle": "timedelta(hours=3)",
+                "max_cycle": "timedelta(hours=3)"
             }
         ],
         "pharmacy": [
@@ -79,17 +95,21 @@
                 "title": "Three cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:31:42",
+                "this_run_time": "01:39:09",
                 "run_type": "wait for it...",
-                "old_run": "00:28:30"
+                "old_run": "00:28:30",
+                "min_cycle": "timedelta(hours=3)",
+                "max_cycle": "timedelta(hours=3)"
             },
             {
                 "title": "Checkpoint",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:43:26",
+                "this_run_time": "01:50:53",
                 "old_run": "00:00:11",
-                "run_type": "wait for it..."
+                "run_type": "wait for it...",
+                "min_cycle": "timedelta(hours=3)",
+                "max_cycle": "timedelta(hours=3)"
             }
         ],
         "big_als": [
@@ -97,17 +117,21 @@
                 "title": "Four cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:43:26",
+                "this_run_time": "01:50:53",
                 "run_type": "wait for it...",
-                "old_run": "00:00:11"
+                "old_run": "00:00:11",
+                "min_cycle": "timedelta(hours=3)",
+                "max_cycle": "timedelta(hours=3)"
             },
             {
                 "title": "Two guards",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:43:26",
+                "this_run_time": "01:50:53",
                 "run_type": "wait for it...",
-                "old_run": "00:00:11"
+                "old_run": "00:00:11",
+                "min_cycle": "timedelta(hours=3)",
+                "max_cycle": "timedelta(hours=3)"
             }
         ],
         "jewelry_store": [
@@ -115,21 +139,23 @@
                 "title": "Three cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "00:07:07",
+                "this_run_time": "00:14:34",
                 "run_type": "wait for it...",
-                "old_run": "00:52:08"
+                "old_run": "00:52:08",
+                "min_cycle": "timedelta(hours=3)",
+                "max_cycle": "timedelta(hours=3)"
             },
             {
                 "title": "One guard",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:43:26",
+                "this_run_time": "01:50:53",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11",
-                "min_cycle": "",
-                "max_cycle": ""
+                "min_cycle": "timedelta(hours=3)",
+                "max_cycle": "timedelta(hours=3)"
             }
         ]
     },
-    "old_time": "2025-04-06T09:01:06.971378+00:00"
+    "old_time": "2025-04-06T09:08:34.347848+00:00"
 }
