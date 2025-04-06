@@ -49,6 +49,8 @@ for shop, old_items in history["shoplifting"].items():
             old_item["run_type"] = "GO GO GO"
         else:
             old_item["run_type"] = "wait for it..."
+old_item["min_cycle"] = ""
+old_item["max_cycle"] = ""
 
 print(f"{old_time}")
 history["old_time"] = new_time_str
