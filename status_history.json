@@ -5,7 +5,7 @@
                 "title": "One camera",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:15:59",
+                "this_run_time": "01:28:30",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             }
@@ -15,7 +15,7 @@
                 "title": "Two cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:04:15",
+                "this_run_time": "01:16:46",
                 "run_type": "wait for it...",
                 "old_run": "00:28:30"
             }
@@ -25,7 +25,7 @@
                 "title": "One camera",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:15:59",
+                "this_run_time": "01:28:30",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             },
@@ -33,7 +33,7 @@
                 "title": "Checkpoint",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:15:59",
+                "this_run_time": "01:28:30",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             }
@@ -43,7 +43,7 @@
                 "title": "Two cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:15:59",
+                "this_run_time": "01:28:30",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             },
@@ -51,7 +51,7 @@
                 "title": "Checkpoint",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:15:59",
+                "this_run_time": "01:28:30",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             }
@@ -61,7 +61,7 @@
                 "title": "Two cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:15:59",
+                "this_run_time": "01:28:30",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             },
@@ -69,7 +69,7 @@
                 "title": "One guard",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:15:59",
+                "this_run_time": "01:28:30",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             }
@@ -79,7 +79,7 @@
                 "title": "Three cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:04:15",
+                "this_run_time": "01:16:46",
                 "run_type": "wait for it...",
                 "old_run": "00:28:30"
             },
@@ -87,7 +87,7 @@
                 "title": "Checkpoint",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:15:59",
+                "this_run_time": "01:28:30",
                 "old_run": "00:00:11",
                 "run_type": "wait for it..."
             }
@@ -97,7 +97,7 @@
                 "title": "Four cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:15:59",
+                "this_run_time": "01:28:30",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             },
@@ -105,7 +105,7 @@
                 "title": "Two guards",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:15:59",
+                "this_run_time": "01:28:30",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             }
@@ -115,7 +115,7 @@
                 "title": "Three cameras",
                 "disabled": true,
                 "CHANGE?": "No!!",
-                "this_run_time": "00:39:37",
+                "this_run_time": "00:52:08",
                 "run_type": "GO GO GO",
                 "old_run": "00:28:06"
             },
@@ -123,11 +123,11 @@
                 "title": "One guard",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:15:59",
+                "this_run_time": "01:28:30",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11"
             }
         ]
     },
-    "old_time": "2025-04-06T08:33:38.052843+00:00"
+    "old_time": "2025-04-06T08:46:09.968243+00:00"
 }
