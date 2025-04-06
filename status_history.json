@@ -9,7 +9,7 @@
                 "run_type": "wait for it...",
                 "old_run": "00:15:41",
                 "min_cycle": "timedelta(hours=3)",
-                "max_cycle": "timedelta(hours=3)"
+                "max_cycle": "timedelta(hours=10)"
             }
         ],
         "Bits_n_bobs": [
@@ -20,8 +20,8 @@
                 "this_run_time": "00:43:54",
                 "run_type": "wait for it...",
                 "old_run": "00:15:50",
-                "min_cycle": "timedelta(hours=3)",
-                "max_cycle": "timedelta(hours=3)"
+                "min_cycle": "timedelta(hours=4, minutes=30)",
+                "max_cycle": "timedelta(hours=14)"
             }
         ],
         "tc_clothing": [
@@ -33,7 +33,7 @@
                 "run_type": "wait for it...",
                 "old_run": "00:43:05",
                 "min_cycle": "timedelta(hours=3)",
-                "max_cycle": "timedelta(hours=3)"
+                "max_cycle": "timedelta(hours=10)"
             },
             {
                 "title": "Checkpoint",
@@ -42,8 +42,8 @@
                 "this_run_time": "04:42:06",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11",
-                "min_cycle": "timedelta(hours=3)",
-                "max_cycle": "timedelta(hours=3)"
+                "min_cycle": "timedelta(hours=72)",
+                "max_cycle": "timedelta(hours=96)"
             }
         ],
         "super_store": [
@@ -54,8 +54,8 @@
                 "this_run_time": "04:42:06",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11",
-                "min_cycle": "timedelta(hours=3)",
-                "max_cycle": "timedelta(hours=3)"
+                "min_cycle": "timedelta(hours=4, minutes=30)",
+                "max_cycle": "timedelta(hours=14)"
             },
             {
                 "title": "Checkpoint",
@@ -64,8 +64,8 @@
                 "this_run_time": "04:42:06",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11",
-                "min_cycle": "timedelta(hours=3)",
-                "max_cycle": "timedelta(hours=3)"
+                "min_cycle": "timedelta(hours=72)",
+                "max_cycle": "timedelta(hours=96)"
             }
         ],
         "cyber_force": [
