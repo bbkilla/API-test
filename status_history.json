@@ -3,11 +3,11 @@
         "sallys_sweet_shop": [
             {
                 "title": "One camera",
-                "disabled": false,
-                "CHANGE?": "No!!",
-                "this_run_time": "03:14:17",
-                "run_type": "wait for it...",
-                "old_run": "00:38:01",
+                "disabled": true,
+                "CHANGE?": "YES!!",
+                "this_run_time": "00:00:00",
+                "run_type": "GO GO GO",
+                "old_run": "03:14:17",
                 "min_cycle": "timedelta(hours=3)",
                 "max_cycle": "timedelta(hours=10)"
             }
@@ -17,7 +17,7 @@
                 "title": "Two cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "09:39:38",
+                "this_run_time": "11:31:07",
                 "run_type": "wait for it...",
                 "old_run": "00:17:44",
                 "min_cycle": "timedelta(hours=4, minutes=30)",
@@ -29,7 +29,7 @@
                 "title": "One camera",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "01:46:30",
+                "this_run_time": "03:37:59",
                 "run_type": "wait for it...",
                 "old_run": "00:27:42",
                 "min_cycle": "timedelta(hours=3)",
@@ -39,7 +39,7 @@
                 "title": "Checkpoint",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "40:40:36",
+                "this_run_time": "42:32:05",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11",
                 "min_cycle": "timedelta(hours=72)",
@@ -49,11 +49,11 @@
         "super_store": [
             {
                 "title": "Two cameras",
-                "disabled": true,
-                "CHANGE?": "No!!",
-                "this_run_time": "00:36:31",
-                "run_type": "GO GO GO",
-                "old_run": "02:39:37",
+                "disabled": false,
+                "CHANGE?": "YES!!",
+                "this_run_time": "00:00:00",
+                "run_type": "wait for it...",
+                "old_run": "00:36:31",
                 "min_cycle": "timedelta(hours=4, minutes=30)",
                 "max_cycle": "timedelta(hours=14)"
             },
@@ -61,7 +61,7 @@
                 "title": "Checkpoint",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "40:40:36",
+                "this_run_time": "42:32:05",
                 "run_type": "wait for it...",
                 "old_run": "00:00:11",
                 "min_cycle": "timedelta(hours=72)",
@@ -71,11 +71,11 @@
         "cyber_force": [
             {
                 "title": "Two cameras",
-                "disabled": false,
-                "CHANGE?": "No!!",
-                "this_run_time": "08:38:51",
-                "run_type": "wait for it...",
-                "old_run": "00:18:25",
+                "disabled": true,
+                "CHANGE?": "YES!!",
+                "this_run_time": "00:00:00",
+                "run_type": "GO GO GO",
+                "old_run": "08:38:51",
                 "min_cycle": "timedelta(hours=4, minutes=30)",
                 "max_cycle": "timedelta(hours=14)"
             },
@@ -83,7 +83,7 @@
                 "title": "One guard",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "06:38:04",
+                "this_run_time": "08:29:33",
                 "run_type": "wait for it...",
                 "old_run": "00:00:00",
                 "min_cycle": "timedelta(hours=3, minutes=30)",
@@ -95,7 +95,7 @@
                 "title": "Three cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "07:07:39",
+                "this_run_time": "08:59:08",
                 "run_type": "wait for it...",
                 "old_run": "00:25:04",
                 "min_cycle": "timedelta(hours=4, minutes=30)",
@@ -105,7 +105,7 @@
                 "title": "Checkpoint",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "03:39:08",
+                "this_run_time": "05:30:37",
                 "old_run": "07:59:26",
                 "run_type": "wait for it...",
                 "min_cycle": "timedelta(hours=72)",
@@ -117,7 +117,7 @@
                 "title": "Four cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "10:44:07",
+                "this_run_time": "12:35:36",
                 "run_type": "wait for it...",
                 "old_run": "00:41:56",
                 "min_cycle": "timedelta(hours=4, minutes=30)",
@@ -125,11 +125,11 @@
             },
             {
                 "title": "Two guards",
-                "disabled": true,
+                "disabled": false,
                 "CHANGE?": "YES!!",
                 "this_run_time": "00:00:00",
-                "run_type": "GO GO GO",
-                "old_run": "08:04:52",
+                "run_type": "wait for it...",
+                "old_run": "00:00:00",
                 "min_cycle": "timedelta(hours=7)",
                 "max_cycle": "timedelta(hours=9)"
             }
@@ -137,11 +137,11 @@
         "jewelry_store": [
             {
                 "title": "Three cameras",
-                "disabled": true,
+                "disabled": false,
                 "CHANGE?": "YES!!",
                 "this_run_time": "00:00:00",
-                "run_type": "GO GO GO",
-                "old_run": "10:10:37",
+                "run_type": "wait for it...",
+                "old_run": "00:00:00",
                 "min_cycle": "timedelta(hours=4, minutes=30)",
                 "max_cycle": "timedelta(hours=17)"
             },
@@ -149,7 +149,7 @@
                 "title": "One guard",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "24:29:55",
+                "this_run_time": "26:21:24",
                 "run_type": "wait for it...",
                 "old_run": "00:00:00",
                 "min_cycle": "timedelta(hours=3, minutes=30)",
@@ -157,5 +157,5 @@
             }
         ]
     },
-    "old_time": "2025-04-07T23:59:40.036467+00:00"
+    "old_time": "2025-04-08T01:51:09.049273+00:00"
 }
