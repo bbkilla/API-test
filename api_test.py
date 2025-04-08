@@ -2,7 +2,7 @@ import json
 import requests
 from datetime import datetime, UTC, timedelta
 
-API = "https://api.torn.com/torn/?key=PHjfnNpLPwYwlM7l&comment=TornAPI&selections=shoplifting"
+API = "https://api.torn.com/torn/?key=6Jy84Y0h663nyzu3&comment=TornAPI&selections=shoplifting"
 logs = "status_history.json"
 
 with open(logs, "r") as f:
