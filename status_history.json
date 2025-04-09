@@ -8,8 +8,8 @@
                 "this_run_time": "03:49:18",
                 "run_type": "wait for it...",
                 "old_run": "00:23:58",
-                "min_cycle": timedelta(hours=3),
-                "max_cycle": timedelta(hours=10)
+                "min_cycle": "timedelta(hours=3)",
+                "max_cycle": "timedelta(hours=10)"
             }
         ],
         "Bits_n_bobs": [
@@ -20,8 +20,8 @@
                 "this_run_time": "04:02:28",
                 "run_type": "wait for it...",
                 "old_run": "00:18:56",
-                "min_cycle": timedelta(hours=4, minutes=30),
-                "max_cycle": timedelta(hours=14)
+                "min_cycle": "timedelta(hours=4, minutes=30)",
+                "max_cycle": "timedelta(hours=14)"
             }
         ],
         "tc_clothing": [
@@ -32,8 +32,8 @@
                 "this_run_time": "02:09:17",
                 "run_type": "wait for it...",
                 "old_run": "00:17:29",
-                "min_cycle": timedelta(hours=3),
-                "max_cycle": timedelta(hours=10)
+                "min_cycle": "timedelta(hours=3)",
+                "max_cycle": "timedelta(hours=10)"
             },
             {
                 "title": "Checkpoint",
@@ -42,8 +42,8 @@
                 "this_run_time": "11:28:12",
                 "run_type": "GO GO GO",
                 "old_run": "71:34:17",
-                "min_cycle": timedelta(hours=72),
-                "max_cycle": timedelta(hours=96)
+                "min_cycle": "timedelta(hours=72)",
+                "max_cycle": "timedelta(hours=96)"
             }
         ],
         "super_store": [
@@ -54,8 +54,8 @@
                 "this_run_time": "05:59:25",
                 "run_type": "wait for it...",
                 "old_run": "00:08:08",
-                "min_cycle": timedelta(hours=4, minutes=30),
-                "max_cycle": timedelta(hours=14)
+                "min_cycle": "timedelta(hours=4, minutes=30)",
+                "max_cycle": "timedelta(hours=14)"
             },
             {
                 "title": "Checkpoint",
@@ -64,8 +64,8 @@
                 "this_run_time": "31:00:22",
                 "run_type": "wait for it...",
                 "old_run": "08:34:37",
-                "min_cycle": timedelta(hours=72),
-                "max_cycle": timedelta(hours=96)
+                "min_cycle": "timedelta(hours=72)",
+                "max_cycle": "timedelta(hours=96)"
             }
         ],
         "cyber_force": [
@@ -76,8 +76,8 @@
                 "this_run_time": "05:59:25",
                 "run_type": "wait for it...",
                 "old_run": "00:16:24",
-                "min_cycle": timedelta(hours=4, minutes=30),
-                "max_cycle": timedelta(hours=14)
+                "min_cycle": "timedelta(hours=4, minutes=30)",
+                "max_cycle": "timedelta(hours=14)"
             },
             {
                 "title": "One guard",
@@ -86,8 +86,8 @@
                 "this_run_time": "02:48:34",
                 "run_type": "wait for it...",
                 "old_run": "00:00:00",
-                "min_cycle": timedelta(hours=3, minutes=30),
-                "max_cycle": timedelta(hours=5)
+                "min_cycle": "timedelta(hours=3, minutes=30)",
+                "max_cycle": "timedelta(hours=5)"
             }
         ],
         "pharmacy": [
@@ -98,8 +98,8 @@
                 "this_run_time": "05:59:25",
                 "run_type": "wait for it...",
                 "old_run": "00:34:04",
-                "min_cycle": timedelta(hours=4, minutes=30),
-                "max_cycle": timedelta(hours=17)
+                "min_cycle": "timedelta(hours=4, minutes=30)",
+                "max_cycle": "timedelta(hours=17)"
             },
             {
                 "title": "Checkpoint",
@@ -108,8 +108,8 @@
                 "this_run_time": "46:18:41",
                 "old_run": "07:59:26",
                 "run_type": "wait for it...",
-                "min_cycle": timedelta(hours=72),
-                "max_cycle": timedelta(hours=96)
+                "min_cycle": "timedelta(hours=72)",
+                "max_cycle": "timedelta(hours=96)"
             }
         ],
         "big_als": [
@@ -120,7 +120,7 @@
                 "this_run_time": "00:00:00",
                 "run_type": "GO GO GO",
                 "old_run": "13:36:02",
-                "min_cycle": timedelta(hours=4, minutes=30),
+                "min_cycle": "timedelta(hours=4, minutes=30)",
                 "max_cycle": "timedelta(hours=21)"
             },
             {
@@ -130,8 +130,8 @@
                 "this_run_time": "09:22:33",
                 "run_type": "wait for it...",
                 "old_run": "00:00:00",
-                "min_cycle": timedelta(hours=7),
-                "max_cycle": timedelta(hours=9)
+                "min_cycle": "timedelta(hours=7)",
+                "max_cycle": "timedelta(hours=9)"
             }
         ],
         "jewelry_store": [
@@ -142,8 +142,8 @@
                 "this_run_time": "01:49:15",
                 "run_type": "wait for it...",
                 "old_run": "00:31:02",
-                "min_cycle": timedelta(hours=4, minutes=30),
-                "max_cycle": timedelta(hours=17)
+                "min_cycle": "timedelta(hours=4, minutes=30)",
+                "max_cycle": "timedelta(hours=17)"
             },
             {
                 "title": "One guard",
@@ -152,8 +152,8 @@
                 "this_run_time": "02:57:48",
                 "run_type": "wait for it...",
                 "old_run": "00:00:00",
-                "min_cycle": timedelta(hours=3, minutes=30),
-                "max_cycle": timedelta(hours=5)
+                "min_cycle": "timedelta(hours=3, minutes=30)",
+                "max_cycle": "timedelta(hours=5)"
             }
         ]
     },
