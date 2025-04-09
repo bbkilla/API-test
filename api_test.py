@@ -15,6 +15,18 @@ old_time_str = history["old_time"]
 new_time = datetime.fromisoformat(new_time_str)
 old_time = datetime.fromisoformat(old_time_str)
 
+def format_td(td):
+    total_seconds = int(td.total_seconds())
+    hours, remainder = divmod(total_seconds, 3600)
+    minutes, seconds = divmod(remainder, 60)
+    if hours:
+        return f"{hours}h {minutes}m"
+    elif minutes:
+        return f"{minutes}m {seconds}s"
+    else:
+        return f"{seconds}s"
+
+
 for shop, old_items in history["shoplifting"].items():
     new_items = {item["title"]: item for item in data["shoplifting"].get(shop, [])}  
 
@@ -47,8 +59,25 @@ for shop, old_items in history["shoplifting"].items():
 
         if new_item["disabled"] == True:
             old_item["run_type"] = "GO GO GO"
+            old_item["status"] = f"In {shop} the {old_item["title"]} is off."
+            
         else:
             old_item["run_type"] = "wait for it..."
+            min_cycle = eval(old_item["min_cycle"])
+            max_cycle = eval(old_item["max_cycle"])
+            h, m, s = map(int, old_item["this_run_time"].split(":"))
+            current_time = timedelta(hours=h, minutes=m, seconds=s)
+            if current_time < min_cycle:
+                left_min = min_cycle - current_time
+                left_max = max_cycle - current_time
+                old_item["status"] = f"In {shop} the {old_item['title']} is active, will disable in {format_td(left_min)} - {format_td(left_max)}."
+            elif min_cycle <= current_time < max_cycle:
+                left_max = max_cycle - current_time
+                old_item["status"] = f"In {shop} the {old_item['title']} is active, can be disable off any minute, max in {format_td(left_max)}."
+            else:
+                old_item["status"] = f"In {shop} the {old_item['title']} is active, but due to error, can't give estimated time."
+        print(old_item['status'])
+
 
 print(f"{old_time}")
 history["old_time"] = new_time_str
