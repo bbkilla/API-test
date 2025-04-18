@@ -36,7 +36,6 @@ for shop, old_items in history["shoplifting"].items():
         new_item = new_items[title]  
             
         if old_item["disabled"] == new_item["disabled"]:
-            old_item["CHANGE?"] = "No!!"
             if old_item["this_run_time"] == "00:00:00":
                 time_dif = new_time - old_time
                 total_seconds = int(time_dif.total_seconds())
@@ -52,17 +51,16 @@ for shop, old_items in history["shoplifting"].items():
                 minutes, seconds = divmod(remainder, 60)
                 old_item["this_run_time"] = f"{hours:02}:{minutes:02}:{seconds:02}"
         else:
-            old_item["CHANGE?"] = "YES!!"
             old_item["old_run"] = old_item["this_run_time"]
             old_item["this_run_time"] = "00:00:00"
             old_item["disabled"] = new_item["disabled"]
 
+        old_item["icon"] = "red"
         if new_item["disabled"] == True:
-            old_item["run_type"] = "GO GO GO"
-            old_item["status"] = f"In {shop} the {old_item["title"]} is off."
+            old_item["icon"] = "green"
+            old_item["status"] = f"In {shop} the {old_item["title"]} is disabled."
             
         else:
-            old_item["run_type"] = "wait for it..."
             min_cycle = eval(old_item["min_cycle"])
             max_cycle = eval(old_item["max_cycle"])
             h, m, s = map(int, old_item["this_run_time"].split(":"))
@@ -73,13 +71,60 @@ for shop, old_items in history["shoplifting"].items():
                 old_item["status"] = f"In {shop} the {old_item['title']} is active, will disable in {format_td(left_min)} - {format_td(left_max)}."
             elif min_cycle <= current_time < max_cycle:
                 left_max = max_cycle - current_time
-                old_item["status"] = f"In {shop} the {old_item['title']} is active, can be disable off any minute, max in {format_td(left_max)}."
+                old_item["status"] = f"In {shop} the {old_item['title']} is active, can be disabled any minute, max in {format_td(left_max)}."
+                old_item["icon"] = "yellow"
             else:
                 old_item["status"] = f"In {shop} the {old_item['title']} is active, but due to error, can't give estimated time."
+
         print(old_item['status'])
 
+icon_green = False
+icon_yellow = False
+icon_blue = False
+icon_silver = False
 
-print(f"{old_time}")
+if history["shoplifting"]["sallys_sweet_shop"][0]["icon"] == "green":
+    icon_green = True
+elif history["shoplifting"]["sallys_sweet_shop"][0]["icon"] == "yellow":
+    icon_yellow = True
+
+if history["shoplifting"]["pharmacy"][0]["icon"] == "green":
+    icon_green = True
+elif history["shoplifting"]["pharmacy"][0]["icon"] == "yellow":
+    icon_yellow = True
+
+if history["shoplifting"]["big_als"][0]["icon"] == "green":
+    icon_green = True
+elif history["shoplifting"]["big_als"][0]["icon"] == "yellow":
+    icon_yellow = True
+
+if history["shoplifting"]["pharmacy"][1]["icon"] == "green":
+    icon_green = True
+elif history["shoplifting"]["pharmacy"][1]["icon"] == "yellow":
+    icon_yellow = True
+
+if history["shoplifting"]["big_als"][1]["icon"] == "green":
+    icon_green = True
+elif history["shoplifting"]["big_als"][1]["icon"] == "yellow":
+    icon_yellow = True
+
+if history["shoplifting"]["super_store"][0]["icon"] == "green" and history["shoplifting"]["super_store"][1]["icon"] == "green":
+    icon_silver = True
+elif history["shoplifting"]["super_store"][0]["icon"] == "green" or history["shoplifting"]["super_store"][1]["icon"] == "green":
+    if history["shoplifting"]["super_store"][0]["icon"] == "yellow" or history["shoplifting"]["super_store"][1]["icon"] == "yellow":
+        icon_blue = True
+
+if icon_silver:
+    history["icon"] = "silver"
+elif icon_blue:
+    history["icon"] = "blue"
+elif icon_green:
+    history["icon"] = "green"
+elif icon_yellow:
+    history["icon"] = "yellow"
+else:
+    history["icon"] = "red"
+
 history["old_time"] = new_time_str
 
 with open(logs, "w") as f:
