@@ -5,12 +5,12 @@
                 "title": "One camera",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "05:29:56",
+                "this_run_time": "05:44:49",
                 "run_type": "wait for it...",
                 "old_run": "00:29:55",
                 "min_cycle": "timedelta(hours=3)",
                 "max_cycle": "timedelta(hours=10)",
-                "status": "In sallys_sweet_shop the One camera is active, can be disabled any minute, max in 4h 30m.",
+                "status": "In sallys_sweet_shop the One camera is active, can be disabled any minute, max in 4h 15m.",
                 "icon": "yellow"
             }
         ],
@@ -19,12 +19,12 @@
                 "title": "Two cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "08:14:42",
+                "this_run_time": "08:29:35",
                 "run_type": "wait for it...",
                 "old_run": "00:14:55",
                 "min_cycle": "timedelta(hours=4, minutes=30)",
                 "max_cycle": "timedelta(hours=14)",
-                "status": "In Bits_n_bobs the Two cameras is active, can be disabled any minute, max in 5h 45m.",
+                "status": "In Bits_n_bobs the Two cameras is active, can be disabled any minute, max in 5h 30m.",
                 "icon": "yellow"
             }
         ],
@@ -33,24 +33,24 @@
                 "title": "One camera",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "04:59:58",
+                "this_run_time": "05:14:51",
                 "run_type": "wait for it...",
                 "old_run": "00:15:05",
                 "min_cycle": "timedelta(hours=3)",
                 "max_cycle": "timedelta(hours=10)",
-                "status": "In tc_clothing the One camera is active, can be disabled any minute, max in 5h 0m.",
+                "status": "In tc_clothing the One camera is active, can be disabled any minute, max in 4h 45m.",
                 "icon": "yellow"
             },
             {
                 "title": "Checkpoint",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "16:14:27",
+                "this_run_time": "16:29:20",
                 "run_type": "wait for it...",
                 "old_run": "09:14:42",
                 "min_cycle": "timedelta(hours=72)",
                 "max_cycle": "timedelta(hours=96)",
-                "status": "In tc_clothing the Checkpoint is active, will disable in 55h 45m - 79h 45m.",
+                "status": "In tc_clothing the Checkpoint is active, will disable in 55h 30m - 79h 30m.",
                 "icon": "red"
             }
         ],
@@ -59,24 +59,24 @@
                 "title": "Two cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "02:14:57",
+                "this_run_time": "02:29:50",
                 "run_type": "wait for it...",
                 "old_run": "00:30:00",
                 "min_cycle": "timedelta(hours=4, minutes=30)",
                 "max_cycle": "timedelta(hours=14)",
-                "status": "In super_store the Two cameras is active, will disable in 2h 15m - 11h 45m.",
+                "status": "In super_store the Two cameras is active, will disable in 2h 0m - 11h 30m.",
                 "icon": "red"
             },
             {
                 "title": "Checkpoint",
                 "disabled": false,
                 "CHANGE?": "YES!!",
-                "this_run_time": "10:14:39",
+                "this_run_time": "10:29:32",
                 "run_type": "GO GO GO",
                 "old_run": "10:44:30",
                 "min_cycle": "timedelta(hours=72)",
                 "max_cycle": "timedelta(hours=96)",
-                "status": "In super_store the Checkpoint is active, will disable in 61h 45m - 85h 45m.",
+                "status": "In super_store the Checkpoint is active, will disable in 61h 30m - 85h 30m.",
                 "icon": "red"
             }
         ],
@@ -85,50 +85,50 @@
                 "title": "Two cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "10:14:39",
+                "this_run_time": "10:29:32",
                 "run_type": "wait for it...",
                 "old_run": "00:44:52",
                 "min_cycle": "timedelta(hours=4, minutes=30)",
                 "max_cycle": "timedelta(hours=14)",
-                "status": "In cyber_force the Two cameras is active, can be disabled any minute, max in 3h 45m.",
+                "status": "In cyber_force the Two cameras is active, can be disabled any minute, max in 3h 30m.",
                 "icon": "yellow"
             },
             {
                 "title": "One guard",
-                "disabled": true,
+                "disabled": false,
                 "CHANGE?": "No!!",
                 "this_run_time": "00:00:00",
                 "run_type": "wait for it...",
-                "old_run": "03:15:02",
+                "old_run": "00:00:00",
                 "min_cycle": "timedelta(hours=3, minutes=30)",
                 "max_cycle": "timedelta(hours=5)",
-                "status": "In cyber_force the One guard is disabled.",
-                "icon": "green"
+                "status": "In cyber_force the One guard is active, will disable in 3h 30m - 5h 0m.",
+                "icon": "red"
             }
         ],
         "pharmacy": [
             {
                 "title": "Three cameras",
-                "disabled": false,
+                "disabled": true,
                 "CHANGE?": "No!!",
-                "this_run_time": "08:44:47",
+                "this_run_time": "00:00:00",
                 "run_type": "wait for it...",
-                "old_run": "00:29:57",
+                "old_run": "08:44:47",
                 "min_cycle": "timedelta(hours=4, minutes=30)",
                 "max_cycle": "timedelta(hours=17)",
-                "status": "In pharmacy the Three cameras is active, can be disabled any minute, max in 8h 15m.",
-                "icon": "yellow"
+                "status": "In pharmacy the Three cameras is disabled.",
+                "icon": "green"
             },
             {
                 "title": "Checkpoint",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "49:28:29",
+                "this_run_time": "49:43:22",
                 "old_run": "11:14:45",
                 "run_type": "wait for it...",
                 "min_cycle": "timedelta(hours=72)",
                 "max_cycle": "timedelta(hours=96)",
-                "status": "In pharmacy the Checkpoint is active, will disable in 22h 31m - 46h 31m.",
+                "status": "In pharmacy the Checkpoint is active, will disable in 22h 16m - 46h 16m.",
                 "icon": "red"
             }
         ],
@@ -137,24 +137,24 @@
                 "title": "Four cameras",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "00:45:05",
+                "this_run_time": "00:59:58",
                 "run_type": "wait for it...",
                 "old_run": "00:29:58",
                 "min_cycle": "timedelta(hours=4, minutes=30)",
                 "max_cycle": "timedelta(hours=21)",
-                "status": "In big_als the Four cameras is active, will disable in 3h 44m - 20h 14m.",
+                "status": "In big_als the Four cameras is active, will disable in 3h 30m - 20h 0m.",
                 "icon": "red"
             },
             {
                 "title": "Two guards",
                 "disabled": false,
                 "CHANGE?": "No!!",
-                "this_run_time": "03:30:02",
+                "this_run_time": "03:44:55",
                 "run_type": "wait for it...",
                 "old_run": "00:00:00",
                 "min_cycle": "timedelta(hours=7)",
                 "max_cycle": "timedelta(hours=9)",
-                "status": "In big_als the Two guards is active, will disable in 3h 29m - 5h 29m.",
+                "status": "In big_als the Two guards is active, will disable in 3h 15m - 5h 15m.",
                 "icon": "red"
             }
         ],
@@ -163,28 +163,28 @@
                 "title": "Three cameras",
                 "disabled": false,
                 "CHANGE?": "YES!!",
-                "this_run_time": "01:00:07",
+                "this_run_time": "01:15:00",
                 "run_type": "GO GO GO",
                 "old_run": "00:45:09",
                 "min_cycle": "timedelta(hours=4, minutes=30)",
                 "max_cycle": "timedelta(hours=17)",
-                "status": "In jewelry_store the Three cameras is active, will disable in 3h 29m - 15h 59m.",
+                "status": "In jewelry_store the Three cameras is active, will disable in 3h 15m - 15h 45m.",
                 "icon": "red"
             },
             {
                 "title": "One guard",
-                "disabled": false,
+                "disabled": true,
                 "CHANGE?": "No!!",
-                "this_run_time": "03:45:00",
+                "this_run_time": "00:00:00",
                 "run_type": "wait for it...",
-                "old_run": "00:00:00",
+                "old_run": "03:45:00",
                 "min_cycle": "timedelta(hours=3, minutes=30)",
                 "max_cycle": "timedelta(hours=5)",
-                "status": "In jewelry_store the One guard is active, can be disabled any minute, max in 1h 15m.",
-                "icon": "yellow"
+                "status": "In jewelry_store the One guard is disabled.",
+                "icon": "green"
             }
         ]
     },
-    "old_time": "2025-05-29T01:15:25.946586+00:00",
-    "icon": "yellow"
+    "old_time": "2025-05-29T01:30:19.437362+00:00",
+    "icon": "green"
 }
